@@ -2,3 +2,4 @@ markdown: kramdown
 theme: jekyll-theme-slate
 title: Matt Bell
 google_analytics: G-Z0PZZDZ6JZ
+show_downloads: false
