@@ -6,16 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-
+    <script src="https://kit.fontawesome.com/7d19255b43.js" crossorigin="anonymous"></script>
     {% if site.google_analytics %}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z0PZZDZ6JZ"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-Z0PZZDZ6JZ');
-    </script>
+      {% include analytics.html %}
     {% endif %}
 {% seo %}
   </head>
@@ -41,10 +34,7 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        {% if site.github.is_project_page %}
-        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+        {% include social.html %}
       </footer>
     </div>
 
