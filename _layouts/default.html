@@ -19,6 +19,7 @@
     <div id="header_wrap" class="outer">
         <header class="inner">
           <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
+          {% include social.html %}
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
         </header>
@@ -34,7 +35,6 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        {% include social.html %}
       </footer>
     </div>
 
