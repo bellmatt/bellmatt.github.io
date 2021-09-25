@@ -2,7 +2,7 @@ markdown: kramdown
 theme: jekyll-theme-slate
 title: Matt Bell
 description: 
-google_analytics: G-Z0PZZDZ6JZ
+analytics: true
 show_downloads: false
 social:
   twitter: mbell88
