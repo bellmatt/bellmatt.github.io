@@ -3,7 +3,7 @@ layout: post
 title: Ever the Optimist
 date: 2021-03-07 13:32:20 +0000
 description: 
-img: i-rest.jpg
+img:
 fig-caption: 
 tags: [Writing]
 ---
