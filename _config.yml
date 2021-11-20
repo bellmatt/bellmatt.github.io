@@ -1,12 +1,32 @@
-markdown: kramdown
-theme: jekyll-theme-slate
 title: Matt Bell
-description: 
-analytics: true
-show_downloads: false
+description: > 
+  Personal site for Matt Bell
+permalink: ':title/'
+baseurl: ""
+url: "https://mattbell.dev"
+
+# Author Settings
+author: Matt Bell
+author-img: cover-photo.jpg
+about-author: Software Engineer
+
 social:
   twitter: mbell88
   instagram: mbelly88
   linkedin: matt-bell-18126341
   github: bellmatt
-  medium: mattbell.dev
+  medium: "@mattbell.dev"
+
+analytics: true
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
