@@ -7,13 +7,14 @@ title = "Matt Bell"
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
-[author]
+[params.author]
   name = "Matt Bell"
   headline = ""
   image = "img/me.jpg"  # path relative to static directory
 
   links = [
     { email = "mailto:m@ttbell.co.uk" },
+    { bluesky = "https://bsky.app/profile/mattbell.dev" },
     # { link = "https://link-to-some-website.com/" },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
