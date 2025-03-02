@@ -1,14 +1,16 @@
 <https://mattbell.dev>
 
-Run locally:
+## Running locally
+
+Install dependencies and run locally:
 ```
 brew bundle
 hugo serve
 ```
 
-Dependency updates
+## Dependency updates
 
-Only dependency is [Lynx](https://github.com/jpanther/lynx), can be updated to the latest version with:
+Only dependency is the theme [Congo](https://github.com/jpanther/congo), can be updated to the latest version with:
 ```
-go get github.com/jpanther/lynx
+hugo mod get -u
 ```
