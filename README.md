@@ -13,4 +13,5 @@ hugo serve
 Only dependency is the theme [Congo](https://github.com/jpanther/congo), can be updated to the latest version with:
 ```
 hugo mod get -u
+hugo mod tidy
 ```
